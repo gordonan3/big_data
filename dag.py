@@ -14,7 +14,7 @@ FLAGS_ACTIVITY_PATH = os.path.join(BASE_DIR, 'flags_activity.csv')
 
 # Основные параметры DAG
 default_args = {
-    'owner': 'airflow',
+    'owner': 'Anton Gordon',
     'depends_on_past': False,
     'email_on_failure': False,
     'email_on_retry': False,
