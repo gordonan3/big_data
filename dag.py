@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import os
 import tempfile
-from scripts.transform_script import transform  # Импорт функции transform
+from big_data.scripts.transform_script import transform  # Импорт функции transform
 
 # Пути к данным
 BASE_DIR = "/opt/airflow/data"
