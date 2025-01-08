@@ -8,7 +8,7 @@ import tempfile
 from big_data.scripts.transform_script import transform  # Импорт функции transform
 
 # Пути к данным
-BASE_DIR = "/opt/airflow/data"
+BASE_DIR = "/home/airflow/data"
 PROFIT_TABLE_PATH = os.path.join(BASE_DIR, 'profit_table.csv')
 FLAGS_ACTIVITY_PATH = os.path.join(BASE_DIR, 'flags_activity.csv')
 
