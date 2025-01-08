@@ -2,7 +2,7 @@ import pandas as pd
 from tqdm import tqdm
 
 
-def transfrom(profit_table, date):
+def transform(profit_table, date):
     """ Собирает таблицу флагов активности по продуктам
         на основании прибыли и количеству совершёных транзакций
         
