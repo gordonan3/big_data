@@ -3,7 +3,8 @@ FROM apache/airflow:2.7.2
 
 # Установка дополнительных библиотек
 USER airflow
-RUN pip install --no-cache-dir tqdm  
+RUN pip install --no-cache-dir tqdm
+RUN pip install --no-cache-dir pandas
 
 # Копирование данных и файлов в контейнер
 USER root
